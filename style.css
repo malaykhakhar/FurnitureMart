@@ -44,3 +44,40 @@ body {
 .hero-desc button {
   margin: 2% 42%;
 }
+
+.container-collection {
+  margin: 4rem 0;
+}
+
+.container-collection h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.categories {
+  display: grid;
+  max-width: 78vw;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  gap: 3rem;
+}
+
+.categories-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.categories-item img {
+  width: 33.5rem;
+}
+
+.categories-item div {
+  text-align: center;
+}
+
+.categories-item button {
+  margin: auto;
+  width: 10rem;
+}
