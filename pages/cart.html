@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="/style/cart.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo"><a href="#" class="remove-deco">FurnitureMart</a></h1>
+      <div class="header-nav">
+        <nav class="nav">
+          <ul>
+            <li>
+              <input type="text" placeholder="Search" class="nav-search" />
+            </li>
+            <li>
+              <a href="#"><img src="/assets/images/wishlist.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/assets/images/Cart-nav.svg" alt="" /></a>
+            </li>
+            <li>
+              <button class="btn btn-primary">
+                <a href="" class="remove-deco-white">Login/SignUp</a>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <h1 class="heading3 cart-title">My cart(2)</h1>
+    <div class="container-cart">
+      <div class="cart-items vertical-flex">
+        <div class="card horizontal-flex card-horizontal card-shadow">
+          <div class="card-img">
+            <img src="/assets/images/sofa.svg" alt="" />
+          </div>
+          <div class="card-main vertical-flex">
+            <div class="card-main-title vertical-flex">
+              <div class="product-title">Sofa</div>
+              <div class="product-price"><b>Rs. 3999</b></div>
+              <div class="product-offer text-gray">50%</div>
+              <div class="product-quantity horizontal-flex">
+                <p class="text-small">Quantity:-</p>
+                <button>-</button>
+                <input type="number" name="quantity" id="" />
+                <button>+</button>
+              </div>
+            </div>
+            <div class="card-main-desc text-gray text-small">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusamus, labore!
+            </div>
+            <div class="card-main-btn vertical-flex">
+              <button class="btn btn-primary text-small">
+                Add to wishlist
+              </button>
+              <button class="btn btn-primary text-small">
+                Remove from Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card horizontal-flex card-horizontal card-shadow">
+          <div class="card-img">
+            <img src="/assets/images/sofa.svg" alt="" />
+          </div>
+          <div class="card-main vertical-flex">
+            <div class="card-main-title vertical-flex">
+              <div class="product-title">Sofa</div>
+              <div class="product-price"><b>Rs. 3999</b></div>
+              <div class="product-offer text-gray">50%</div>
+              <div class="product-quantity horizontal-flex">
+                <p class="text-small">Quantity:-</p>
+                <button>-</button>
+                <input type="number" name="quantity" id="" />
+                <button>+</button>
+              </div>
+            </div>
+            <div class="card-main-desc text-gray text-small">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusamus, labore!
+            </div>
+            <div class="card-main-btn vertical-flex">
+              <button class="btn btn-primary text-small">
+                Add to wishlist
+              </button>
+              <button class="btn btn-primary text-small">
+                Remove from Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cart-value">
+        <div class="heading5"><b>Price Details</b></div>
+        <div class="separator"></div>
+        <div class="cart-item-detail">
+          <div>Price</div>
+          <div>Rs. 2000</div>
+        </div>
+        <div class="cart-item-detail">
+          <div>Discount</div>
+          <div>- Rs. 100</div>
+        </div>
+        <div class="cart-item-detail">
+          <div>Delivery Charges</div>
+          <div>Rs. 299</div>
+        </div>
+        <div class="separator"></div>
+        <div class="cart-item-detail">
+          <div><b> Total</b></div>
+          <div><b> Rs. 2199</b></div>
+        </div>
+        <div class="text-small">You will save Rs. 100 on this order</div>
+        <button class="btn btn-primary">Place your Order</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,7 +1,7 @@
 @import url("/components/component-library/index.css");
 
 :root {
-  --gray: #374151;
+  --gray: rgba(154, 154, 154, 1);
 }
 
 .heading1 {
