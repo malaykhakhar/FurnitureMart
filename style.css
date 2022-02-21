@@ -16,9 +16,17 @@ html {
   text-align: center;
 }
 
+.flex-even-space {
+  justify-content: space-between;
+}
+
 .remove-deco-white {
   text-decoration: none;
   color: var(--white);
+}
+
+.add-gap-1 {
+  gap: 1rem;
 }
 
 body {
