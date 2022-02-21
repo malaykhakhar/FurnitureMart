@@ -2,14 +2,17 @@
 
 .container-cart {
   display: grid;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: 72% 35%;
   height: 100%;
   width: 87%;
   margin: auto;
-  margin-top: 90px;
   margin-bottom: 90px;
 }
 
+.cart-title {
+  text-align: center;
+  margin: 6rem 0;
+}
 .cart-items {
   gap: 4rem;
 }
@@ -37,7 +40,7 @@
 
 .cart-value {
   width: 70%;
-  max-height: 60%;
+  max-height: 50%;
   background-color: var(--overlay-gray);
   padding: 20px;
   display: flex;
