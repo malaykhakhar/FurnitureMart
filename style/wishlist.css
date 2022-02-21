@@ -1,0 +1,25 @@
+@import url("/style.css");
+
+.wishlist-title {
+  text-align: center;
+  margin: 6rem 0;
+}
+
+.wishlist-grid {
+  display: grid;
+  width: 85vw;
+  margin: auto;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  column-gap: 2rem;
+  row-gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+.add-gap {
+  gap: 2rem;
+}
+
+.card-main-btn {
+  display: flex;
+  justify-content: space-between;
+}
