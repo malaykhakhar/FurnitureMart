@@ -41,3 +41,7 @@
 .forgot-password {
   color: var(--primary-color);
 }
+
+.align-item {
+  align-items: center;
+}
