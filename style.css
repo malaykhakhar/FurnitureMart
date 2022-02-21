@@ -1,0 +1,83 @@
+@import url("/components/component.css");
+
+html {
+  font-size: 62.5%;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.text-centre {
+  text-align: center;
+}
+
+.remove-deco-white {
+  text-decoration: none;
+  color: var(--white);
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-search {
+  height: 3.5rem;
+  width: 20rem;
+  border-radius: 10px;
+  border: 1px solid #bcbcbc;
+}
+
+.hero-desc {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+}
+
+.hero-desc button {
+  margin: 2% 42%;
+}
+
+.container-collection {
+  margin: 4rem 0;
+}
+
+.container-collection h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.categories {
+  display: grid;
+  max-width: 78vw;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  gap: 3rem;
+}
+
+.categories-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.categories-item img {
+  width: 33.5rem;
+}
+
+.categories-item div {
+  text-align: center;
+}
+
+.categories-item button {
+  margin: auto;
+  width: 10rem;
+}
