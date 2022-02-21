@@ -1,12 +1,12 @@
 @import url("/style.css");
 
 :root {
-  --black: black;
+  --black: #000;
+  --primary-color-dark: #d97706;
 }
 
 .container-auth {
   width: 25vw;
-  /* height: 50rem; */
   margin: 7rem auto;
   padding: 2rem;
   background-color: var(--overlay-gray);
@@ -18,7 +18,7 @@
   border-radius: 5px;
   font-size: 1.8rem;
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-dark);
 }
 
 .auth-input {
@@ -35,11 +35,11 @@
 
 .auth-footer a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--primary-color-dark);
 }
 
 .forgot-password {
-  color: var(--primary-color);
+  color: var(--primary-color-dark);
 }
 
 .align-item {
