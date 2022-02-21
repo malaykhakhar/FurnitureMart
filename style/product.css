@@ -1,0 +1,36 @@
+@import url("/style.css");
+@import url("/style/wishlist.css");
+
+:root {
+  --aside-border: rgb(161, 152, 152);
+}
+
+.add-margin-3 {
+  margin: 3rem 0;
+}
+
+aside {
+  flex-basis: 30rem;
+  border-right: 1px solid var(--aside-border);
+  padding: 2rem;
+  font-size: 1.8rem;
+}
+
+main {
+  flex-grow: 1;
+  padding: 2rem 7rem;
+}
+
+.products-title {
+  gap: 1rem;
+  align-items: center;
+}
+
+.products {
+  display: grid;
+  margin: 2rem 0;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  column-gap: 0.5rem;
+  row-gap: 4rem;
+  margin-bottom: 4rem;
+}
