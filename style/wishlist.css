@@ -15,10 +15,6 @@
   margin-bottom: 4rem;
 }
 
-.add-gap {
-  gap: 2rem;
-}
-
 .card-main-btn {
   display: flex;
   justify-content: space-between;

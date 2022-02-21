@@ -20,13 +20,25 @@ html {
   justify-content: space-between;
 }
 
+.apply-flex-wrap {
+  flex-wrap: wrap;
+}
+
 .remove-deco-white {
   text-decoration: none;
   color: var(--white);
 }
 
+.add-margin-3 {
+  margin: 3rem 0;
+}
+
 .add-gap-1 {
   gap: 1rem;
+}
+
+.add-gap {
+  gap: 2rem;
 }
 
 body {

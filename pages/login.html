@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/style/login.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">
+        <a href="/index.html" class="remove-deco">FurnitureMart</a>
+      </h1>
+      <div class="header-nav">
+        <nav class="nav">
+          <ul>
+            <li>
+              <input type="text" placeholder="Search" class="nav-search" />
+            </li>
+            <li>
+              <a href="/pages/wishlist.html"
+                ><img src="/assets/images/wishlist.png" alt="Wishlist icon"
+              /></a>
+            </li>
+            <li>
+              <a href="/pages/cart.html"
+                ><img src="/assets/images/Cart-nav.svg" alt="Cart icon"
+              /></a>
+            </li>
+            <li>
+              <button class="btn btn-primary">
+                <a href="/pages/login.html" class="remove-deco-white"
+                  >Login/SignUp</a
+                >
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="vertical-flex add-gap container-auth card-shadow">
+      <div class="auth-title vertical-flex apply-flex-wrap">
+        <div>Welcome back</div>
+        <h1 class="heading3">Login to your account</h1>
+      </div>
+      <div class="auth-info vertical-flex add-gap">
+        <div>
+          <label for="email" class="form-label"><small>Email</small></label>
+          <input
+            type="text"
+            placeholder="Enter your email here"
+            class="auth-input"
+          />
+        </div>
+        <div>
+          <label for="Password" class="form-label"
+            ><small>Password</small></label
+          >
+          <input
+            type="text"
+            placeholder="Enter your password here"
+            class="auth-input"
+          />
+        </div>
+        <div class="horizontal-flex flex-even-space">
+          <div>
+            <input type="checkbox" id="" name="remember-me" value="" />
+            <label for="remember-me">Remember me</label>
+          </div>
+          <div>
+            <a href="#" class="forgot-password">Forgot your password?</a>
+          </div>
+        </div>
+      </div>
+      <button class="btn">Login</button>
+      <div class="auth-footer">
+        <div>New here? <a href="/pages/signup.html">Sign Up</a></div>
+      </div>
+    </section>
+  </body>
+</html>

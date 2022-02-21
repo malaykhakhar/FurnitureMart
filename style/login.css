@@ -1,0 +1,43 @@
+@import url("/style.css");
+
+:root {
+  --black: black;
+}
+
+.container-auth {
+  width: 25vw;
+  /* height: 50rem; */
+  margin: 7rem auto;
+  padding: 2rem;
+  background-color: var(--overlay-gray);
+}
+
+.container-auth button {
+  padding: 1rem 1.6rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+.auth-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid var(--black);
+}
+
+.auth-footer {
+  text-align: center;
+}
+
+.auth-footer a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.forgot-password {
+  color: var(--primary-color);
+}
